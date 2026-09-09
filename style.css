@@ -6,23 +6,29 @@ html{
   line-height - base line height, generally should be in the range 1.5-1.8 
   color- primary text color for the site
   background-color - primary background color for the site */
-
-  
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  line-height: 1.5;
+  color: black;
+  background-color: pink;
 }
 
 /* General heading styles */
 /*set font styles for all of your headings, for example font-weight, line-height, font-family */
 h1, h2, h3, h4, h5, h6{
-  
+  color: magenta;
 }
 
 /* Specific element text styles */
 h1{
-  /*   this is the page title you may want to set the font-size and weight instead of relying on the default. */
+  color: maroon;
 }
 
 h2{
-  /* secondary heading, also set font-size and weight (and others you may want)
+  /* secondary heading, also set font-size and weight (and others you may want) */
+  color: cornflowerblue;
+  font-size: 1.8;
+  font-weight: 700;
 }
 
 p{
